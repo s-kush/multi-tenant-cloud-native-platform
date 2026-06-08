@@ -30,9 +30,9 @@ A hands-on platform engineering project built on K3s to demonstrate:
 
 ## Repository Structure
 
-docs/         Project documentation
-k8s/          Kubernetes manifests
-gitops/       ArgoCD applications
-monitoring/   Monitoring stack
-platform/     Platform design
-notes/        Operational notes
+- docs/         Project documentation
+- k8s/          Kubernetes manifests
+- gitops/       ArgoCD applications
+- monitoring/   Monitoring stack
+- platform/     Platform design
+- notes/        Operational notes
