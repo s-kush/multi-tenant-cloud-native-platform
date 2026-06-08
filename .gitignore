@@ -1,0 +1,4 @@
+# Ansible
+.vault_pass
+ansible/inventory.ini
+ansible/secrets.yml
