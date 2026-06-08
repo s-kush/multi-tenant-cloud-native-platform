@@ -7,11 +7,20 @@ Each tenant receives:
 - LimitRange
 - ConfigMap
 - Secret
+- Service
 - Ingress
 - Persistent Volume
 
-Future:
+Example:
 
-- Network Policies
-- RBAC
-- Dedicated Monitoring
+tenant-a
+├── frontend
+├── backend
+└── postgres
+
+tenant-b
+├── frontend
+├── backend
+└── postgres
+
+TODO: Map tenants to actual users on the platform? Helps in sepration at user level.
