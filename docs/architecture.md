@@ -2,7 +2,7 @@
 
 ## Cluster
 
-- Host: s1.airvault.io
+- Host: platform.airvault.io
 - OS: Debian 12
 - Kubernetes: v1.33.6+k3s1
 - Runtime: containerd

@@ -14,7 +14,7 @@ Less granular control of control-plane components.
 # ADR-002
 
 Decision:
-Use the existing K3s cluster on s1.airvault.io.
+Use the existing K3s cluster on platform.airvault.io.
 
 Reason:
 The cluster is already clean and operational.
@@ -34,3 +34,19 @@ Simple and sufficient for learning and platform development.
 
 Tradeoff:
 Not suitable for highly available storage.
+
+---
+
+# ADR-004
+
+Decision:
+Customer, User, and Tenant are treated as the same entity in Platform.
+
+Reason:
+Simplifies namespace ownership, quota management, storage allocation, and workload isolation.
+
+Tradeoffs:
+Does not support multi-user organizations initially.
+
+Future:
+RBAC can be introduced to support multiple users within a tenant.
